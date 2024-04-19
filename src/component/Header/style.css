@@ -1,0 +1,75 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+input {
+    width: 22rem;
+    height: 2.9rem;
+    border-radius: 35px;
+    position: relative;
+    top: 2.7rem;
+    font-size: 1rem; 
+    padding: 10px;
+}
+h1{
+    font-size: 3.2rem;
+}
+
+.div {
+    margin-top: rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+@media screen and (max-width: 741px) {
+    input {
+        width: 15rem;
+     
+    }
+}
+
+@media screen and (max-width: 620px) {
+    input {
+        width: 12rem;
+
+     
+    }
+    h1{
+        font-size: 2.3rem;
+        padding-top: 1.3rem;
+    }
+}
+
+
+    @media screen and (max-width: 475px) {
+        input {
+            width: 10;
+
+        
+        }
+        h1{
+            font-size: 2rem;
+            padding-top: 1.7rem;
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+        input {
+            width: 8rem;
+            height: 1.8rem;
+    
+         
+        }
+        h1{
+            font-size: 1.7rem;
+            padding-top: 1.4rem;
+        }
+    }
+    
+
+
